@@ -1,1 +1,1 @@
-web: bash -c "python app/main.py"
+worker: python app/main.py
