@@ -1,1 +1,1 @@
-web: python app/main.py
+web: bash -c "python app/main.py"
