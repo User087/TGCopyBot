@@ -26,7 +26,7 @@ tg = Telegram(
     files_directory=getenv("FILES_DIRECTORY"),
 
     proxy_server=getenv("PROXY_SERVER"),
-    proxy_port=getenv("PROXY_PORT"),
+    proxy_port=getenv("PORT"),
     proxy_type={
           # 'proxyTypeSocks5', 'proxyTypeMtproto', 'proxyTypeHttp'
           '@type': getenv("PROXY_TYPE"),
