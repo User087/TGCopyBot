@@ -1,1 +1,1 @@
-worker: python app/main.py
+worker: bash -c "python app/main.py"
